@@ -86,7 +86,7 @@ footer {
  ##########################################################
 */
 
-p:first-child:first-letter{
+p:first-child::first-letter{
   font-size: 5rem;
   float: left;
   padding: .4em .2em;
@@ -95,5 +95,17 @@ p:first-child:first-letter{
 figure {
   float: right;
   width: 300px;
+  margin-right: -5rem;
+}
+
+figcaption {
+
+}
+
+blockquote {
+float: left;
+width: 10em;
+font-size: 1.5em;
+margin-left: -5rem;
 }
 /* Write your CSS here */
