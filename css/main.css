@@ -86,26 +86,30 @@ footer {
  ##########################################################
 */
 
-p:first-child::first-letter{
+p:first-child::first-letter {
   font-size: 5rem;
   float: left;
   padding: .4em .2em;
+  background-color: #666;
+  font-style: normal;
+  color: #f2f2f2;
 }
 
 figure {
   float: right;
   width: 300px;
-  margin-right: -5rem;
-}
-
-figcaption {
-
+  margin-right: -9rem;
 }
 
 blockquote {
-float: left;
-width: 10em;
-font-size: 1.5em;
-margin-left: -5rem;
+  float: left;
+  width: 10em;
+  font-size: 1.5rem;
+  margin-left: -5rem;
+}
+
+figcaption {
+  font-size: .875rem;
+  font-style: italic;
 }
 /* Write your CSS here */
