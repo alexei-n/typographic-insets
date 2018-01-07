@@ -86,4 +86,14 @@ footer {
  ##########################################################
 */
 
+p:first-child:first-letter{
+  font-size: 5rem;
+  float: left;
+  padding: .4em .2em;
+}
+
+figure {
+  float: right;
+  width: 300px;
+}
 /* Write your CSS here */
